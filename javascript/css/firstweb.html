@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-png" href="https://cdn-icons-png.flaticon.com/128/6900/6900876.png">  <!-- ---------icon ------------------->
+    
+    <title>First Web</title>
+
+    <style>
+        body{
+            background-color: rgb(15, 15, 15);
+            background-image: url('https://wallpaperaccess.com/full/381726.jpg');
+            
+        }
+        div#cont{
+            display: grid;
+            grid-template-areas: 
+            'header header header header'
+            'nav nav nav nav '
+            'aside  section section section '
+            'article article article article '
+            'footer footer footer footer ';
+            grid-row-gap: 2rem;
+            grid-column-gap: .5rem;
+        }
+        header{
+            grid-area: header;
+            
+            height: 50px;
+            /*border: 2px solid red;*/
+            border-radius: 5px;
+            background-color: rgb(117 115 115 / 9%);
+        }
+        header div{
+            margin: 10px;
+        }
+        nav{
+            grid-area: nav;
+            
+            height: 50px;
+          /* border: 2px solid rgb(70, 216, 114); */
+          border-radius: 25px;
+          background-color: rgb(117 115 115 / 9%);
+
+        }
+        section{
+            grid-area: section;
+            
+            height: 900px;
+           /* border: 2px solid rgb(146, 61, 243); */
+            margin: 20px;
+            display: grid;
+            grid-template-areas: 
+            'div div div div '
+            'div div div div '
+            'div div div div '
+            'div div div div ';
+            /*grid-gap: .5rem;*/
+            grid-column-gap: .1rem ;
+            grid-row-gap: .1rem;
+        }
+        article{
+            grid-area: article;
+            
+            height: 20px;
+           /*border: 2px solid rgb(240, 86, 245); */
+            margin:2px 150px 2px 700px;
+            
+        }
+        aside{
+            grid-area: aside;
+            width: 100px;
+            height: 500px;
+            /*border: 2px solid rgb(245, 202, 83);*/
+            margin: 20px;
+        }
+        footer{
+            grid-area: footer;
+            
+            height: 50px;
+           /* border: 2px solid red; */
+        }
+        nav a{
+            text-decoration: none;
+            padding: 5px;
+            border-radius: 5px;
+            color: antiquewhite;
+        }
+        nav div{
+            margin: 18px;
+        }
+        nav div a{
+            border: 2px solid white;
+            border-radius: 10px;
+            padding: 5px;
+            margin: 10px;            
+        }
+        nav div a:hover{
+           
+            background-color: rgb(107, 105, 105);
+            
+        }
+        section div{
+            
+            width: 200px;
+            height: 150px;
+            border: 2px solid rgb(244, 244, 247);
+            margin: 25px;
+            background-color: rgb(181, 214, 120);
+            /*overflow: scroll*/
+            border-radius: 10px;
+            
+        }
+        section div img{
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+        }
+        section div:hover{
+            box-shadow: 2px 2px rgb(235, 231, 231);
+        }
+        header div{
+            color: bisque;
+            text-align: center;
+            font-size: 25px;
+            text-shadow: 5px white;
+        }
+        footer div{
+            color: aliceblue;
+            margin: 15px;
+        }
+        article a button{
+            border: 2px solid white;
+            border-radius: 5px;  
+            margin: 1px;  
+
+        }
+        article a button:hover{
+            color: rgb(92, 45, 23);
+        }
+        aside div div{
+            border: 2px solid rgb(85, 84, 84);
+            border-radius: 5px;
+            background-color:rgb(85, 84, 84);
+            text-align: center;
+            margin: 5px;
+        }
+        aside div div:hover{
+            box-shadow: 2px 2px rgba(240, 235, 235, 0.61);
+        }
+    </style>
+</head>
+<body>
+    <div id="cont">
+
+        <hr>
+        <header>
+            <div >HD , FULL HD AND 4K WALLPAPERS</div>
+        </header>
+        <hr>
+        <nav>
+            <div>
+
+                <a href="" style="text-decoration: none;">HD WALLPAPERS</a>
+                <a href="" style="text-decoration: none;">FHD WALLPAPERS</a>
+                <a href="" >4K WALLPAPERS</a>
+            </div>
+        </nav>
+        <section>
+            <div><img src="https://www.hdwallpapers.in/thumbs/2022/fur_tail_brown_squirrel_is_standing_on_tree_branch_in_blur_background_hd_squirrel-t1.jpg" alt="loading"></div>
+            <div><img src="https://www.hdwallpapers.in/thumbs/2022/colorful_pheasant_bird_is_standing_in_green_plants_field_in_blur_background_hd_bird-t1.jpg" alt="loading"></div>
+            <div><img src="https://www.hdwallpapers.in/thumbs/2022/lion_with_stare_look_is_standing_in_green_leaves_tree_branches_background_4k_hd_lion-t2.jpg" alt="loading"></div>
+            <div><img src="https://www.hdwallpapers.in/thumbs/2022/black_white_dog_puppy_is_sitting_in_red_flowers_plants_background_hd_dog-t1.jpg" alt="loading"></div>
+            <div><img src="https://www.hdwallpapers.in/thumbs/2022/yellow_eyes_tiger_with_stare_look_is_lying_down_on_green_grass_4k_hd_tiger-t1.jpg" alt="loading"></div>
+            <div><img src="https://www.hdwallpapers.in/thumbs/2022/two_white_cockatoo_parrots_birds_in_blur_bokeh_background_hd_birds-t1.jpg" alt="loading"></div>
+            <div><img src="https://www.hdwallpapers.in/thumbs/2022/two_brown_black_cat_kittens_are_sitting_on_tree_trunk_in_blur_green_background_hd_cat-t1.jpg" alt="loading"></div>
+            <div><img src="https://www.hdwallpapers.in/thumbs/2022/red_cub_panda_is_sitting_on_tree_trunk_in_yellow_leaves_branches_background_4k_hd_panda-t1.jpg" alt="loading"></div>
+            <div><img src="https://www.hdwallpapers.in/thumbs/2022/sleeping_beauty_cute_baby_on_white_netted_cloth_wearing_wreath_4k_hd_cute-t1.jpg" alt="loading"></div>
+            <div><img src="https://www.hdwallpapers.in/thumbs/2022/smiley_cute_child_toddler_is_sitting_with_christmas_decoration_ornaments_gift_boxes_wearing_white_dress_and_red_headband_hd_cute-t1.jpg" alt="loading"></div>
+            <div><img src="https://www.hdwallpapers.in/thumbs/2022/cute_little_girl_with_blue_eyes_is_sitting_near_bird_cage_wearing_light_pink_dress_4k_hd_cute-t1.jpg" alt="loading"></div>
+            <div><img src="https://www.hdwallpapers.in/thumbs/2022/colorful_lines_digital_art_abstraction_4k_hd_abstract-t1.jpg" alt="loading"></div>
+            <div><img src="https://www.hdwallpapers.in/thumbs/2022/blue_purple_brown_geometric_cubes_stairs_art_pattern_abstraction_4k_hd_abstract-t1.jpg" alt="loading"></div>
+            <div><img src="https://www.hdwallpapers.in/thumbs/2022/purple_blue_wavy_motion_art_pattern_dark_background_abstraction_4k_hd_abstract-t1.jpg" alt="loading"></div>
+            <div><img src="https://www.hdwallpapers.in/thumbs/2022/purple_blue_glowing_light_abstraction_4k_8k_hd_abstract-t1.jpg" alt="loading"></div>
+        </section>
+        <article>
+            <div>
+                <a><button>1</button></a>
+                <a><button>2</button></a>
+                <a><button>3</button></a>                
+                <a><button>NEXT</button></a>
+            </div>
+        </article>
+        <aside>
+            <div>
+                <div><a>Car</a></div>
+                <div><a>Bike</a></div>
+                <div><a>Animal</a></div>
+                <div><a>Art</a></div>
+                <div><a>5</a></div>
+                <div><a>6</a></div>
+                <div><a>7</a></div>
+                <div><a>8</a></div>
+            </div>
+        </aside>
+        <footer>
+            <div><b>Everyone can use a little encouragement now and then. Sadly, both inner struggles and external setbacks are an unavoidable part of being human. The good news is we don’t have to leave someone we care about to muddle through alone. We can be the ones to write the words or send the laugh in an encouragement card that helps someone through a rough day—or a whole tough season of life.</b></div>
+        </footer>
+    </div>
+    </body>
+    </html>

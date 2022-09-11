@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout</title>
+    <style>
+        #cont{
+            display: grid;
+            grid-gap: 1rem;
+            grid-template-areas:
+            'nav nav nav nav'
+            'sect sect sect aside'
+            'footer footer footer footer ' ;
+        }
+        body{
+            background-image: url("https://images.unsplash.com/photo-1652039033545-af28657fc7cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");   
+            content: "";
+            z-index: -1; 
+            opacity: 5;
+        }
+        .box{
+            border: 2px solid black;
+            background-color: rgb(194, 238, 236);
+        }
+        #nav{
+            grid-area: nav;
+            padding: 15px 15px;
+            margin: 15px 15px;
+            border-radius: 15px;
+        }
+        #nav a{
+            text-decoration: none;
+            border-radius: 5px;
+            padding: 5px;
+            margin: 5px;
+            box-shadow: 2px 2px rgb(60, 158, 158);
+        }
+        a:hover{
+            background-color: rgb(110, 238, 238);
+            box-shadow: -2px -2px rgb(60, 158, 158);
+        }
+        #sect{
+            grid-area: sect;
+            padding: 15px 15px;
+            margin: 15px 15px;
+            border-radius: 15px;  
+            height: 1000px;        
+        }
+        #aside{
+            grid-area: aside;
+            padding: 15px 15px;
+            margin: 15px 15px;
+            border-radius: 15px;
+            height: 300px;
+            color: bisque;
+        }
+        #footer{
+            grid-area: footer;
+            padding: 15px 15px;
+            margin: 15px 15px;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="cont">
+        <div id="nav" class="box">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Servies</a>
+        </div>
+        <div id="sect" class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus esse aliquam animi obcaecati fugiat adipisci iure quas, quo tenetur nostrum iste eligendi fugit aperiam libero autem assumenda? Voluptates, maiores cumque?
+        Porro pariatur facilis sunt distinctio impedit cum delectus cumque atque qui magnam expedita, dolorem quibusdam suscipit nisi fuga id ipsam voluptas assumenda praesentium. At nobis iusto perspiciatis! Ut, dolore quidem?
+        Corrupti aperiam cum, enim modi obcaecati illo? Illo fuga, eius impedit blanditiis dolorum placeat molestiae explicabo facilis numquam, laborum nemo ratione nulla. Sunt doloremque error non laborum vel dolorem amet.
+        Eos ipsam porro fuga natus, soluta, explicabo a praesentium cum reprehenderit dolore quia, doloremque molestiae! Ea quod magni error ducimus quidem, laudantium rerum alias veniam, sint, cumque excepturi voluptatem iste?
+        Ullam nisi facilis placeat explicabo veniam. Praesentium minima eaque facere veritatis consequatur fugiat consequuntur! Neque quo molestiae voluptatum sint consequuntur ea, enim eos quia vel itaque expedita harum ratione iure.
+        Neque voluptatum quas dolorem nostrum numquam voluptates necessitatibus! Quae, expedita ipsam? Dolore sed corporis, ratione sunt laboriosam voluptatum voluptas ullam officia aliquam! Alias est, dolores corrupti qui accusamus assumenda quis?
+        Libero, atque similique, unde non commodi eius suscipit corrupti enim facilis, aliquam sapiente labore. Recusandae eligendi eos voluptas sequi quod praesentium cumque voluptates. Enim, eligendi. Quod a earum fuga doloribus.
+        Eaque, quia iste? Unde sunt saepe nihil! Aliquid optio accusamus expedita dicta, veniam maxime non? Consectetur architecto aliquid eos maiores? Saepe, est quos? Impedit architecto neque ullam culpa? Libero, ut.
+        Asperiores corrupti explicabo accusamus nesciunt optio? Ratione est esse libero optio velit laborum non ea corporis, perspiciatis asperiores, error nam consectetur provident ex, officia cupiditate consequatur sunt qui alias? Possimus.
+        Minima maiores architecto aut reiciendis culpa itaque est? Omnis nihil culpa placeat, fuga nobis quam libero voluptas odit expedita maiores molestiae vel laborum, fugiat dicta quaerat sed delectus. Necessitatibus, officia.        
+        Ut dolorem sapiente minus maxime suscipit molestias eius amet nemo repellendus iste dolorum harum quasi deserunt aut, voluptatum inventore molestiae laboriosam quos debitis? Consequatur laboriosam commodi quisquam odit ex esse.</div>
+        <div id="aside" class="box1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi fuga voluptate, at molestiae eos consequuntur aliquid expedita nemo, architecto dolorum cupiditate perferendis ab nihil enim ex. Iusto in pariatur unde.</div>
+        <div id="footer" class="box">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id nulla voluptatum animi illum cumque dolores aliquid, quos pariatur quis vero impedit ea sit rerum vel porro placeat ullam, commodi alias?
+        Saepe velit quasi veritatis in beatae perspiciatis, numquam debitis harum, consequatur reiciendis alias dolor? Reiciendis commodi ratione unde fugit mollitia praesentium laborum amet at quia, eligendi cum voluptatibus odio consectetur!
+        Distinctio neque iste, accusantium corporis ab sed! Nisi doloribus debitis incidunt. Suscipit vel, dignissimos sequi consequatur ipsum corporis laborum doloribus soluta obcaecati distinctio, saepe dolorum quia atque iure sit esse!
+        Reprehenderit cupiditate, rem aspernatur iusto alias enim autem sint quidem incidunt, dolore facilis earum natus est magnam iste! Iure recusandae veritatis accusantium earum rerum eveniet saepe totam. Numquam, maiores consequuntur.
+        Eius, labore! Voluptas natus iste eveniet suscipit labore ipsum, excepturi aspernatur officiis hic quos quo ullam consectetur dolores sapiente earum dicta voluptate pariatur quaerat totam officia? Fugit saepe dolorem illum. 
+       </div>
+    </div>
+</body>
+</html>

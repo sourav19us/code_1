@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "..\\c++"
+		},
+		{
+			"path": "..\\c++ practis"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\pythan"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"ostream": "cpp",
+			"iostream": "cpp"
+		}
+	}
+}

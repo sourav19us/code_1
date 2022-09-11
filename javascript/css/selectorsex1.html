@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+        h1{
+            color: rgb(241, 241, 245);
+            background-color: blue;
+            text-align: center;
+        }
+        div p{
+            color: brown;
+            background-color: rgb(226, 161, 161);
+            
+        }
+
+        div li p{
+            background-color: aqua;
+        }
+
+        div > p{
+            background-color: rgb(196, 142, 247);
+        }
+
+        div + p{
+            color: aliceblue;
+            background-color: rgb(95, 86, 86);
+        }
+    </style>
+</head>
+<body>
+    <h1>This is heading</h1>
+    <div class="cont">
+        <div>
+            <ul>
+                <li><p>this peragrap insaid li</p></li>
+            </ul>
+        </div>
+        <p>This is in said div that have cont class</p>
+        <div>
+            <p>this is insaid div</p>
+        </div>
+    </div>
+</body>
+</html>

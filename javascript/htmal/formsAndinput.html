@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and input and div</title>
+</head>
+<body>
+    <form action="word.php">
+        <div>
+            <label for="myname">Enter your name:-</label>
+             <input type="text" name="myname" id="myname">
+        </div>
+        <div>
+            <label for="myage">Enter your age:- </label>
+            <input type="number" name="myage"  id="myage">
+        </div>
+        <div>
+            Enter your Email id:- <input type="email" name="myemailid" >
+        </div>
+        <div>
+            Enter date:- <input type="date" name="mydate" > <br>
+            DATE AND TIME:- <input type="datetime" name="mydateandtime" > <br>
+            time:- <input type="image" src="" alt="load img">
+        </div>
+        <div>
+            checkbox:-<input type="checkbox" name="mycheckbox" checked >  <!-- see it-->
+        </div>
+        <div>
+            Gender:-Male <input type="radio" name="mygender" >
+            Femal <input type="radio" name="mygender" >
+            Other <input type="radio" name="mygender" >
+        </div>
+        <div>
+            write your words <br>
+            <textarea name="mytext" id="text" cols="90" rows="10"></textarea>
+
+        </div>
+        <div>
+            <label for="car">car</label>
+            <select name="mycar" id="car">
+                <option value="sel" selected>select car</option>
+                <option value="s">swift</option>
+                <option value="d">audi</option>
+                <option value="w">maruti</option>
+            </select>
+        </div>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+    </form>
+</body>
+</html>

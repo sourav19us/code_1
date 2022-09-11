@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Menu</title>
+    <style>
+        nav.navi{
+            background-color: rgb(213, 212, 248);
+            border-radius: 5px;
+            padding: 15px 15px;
+            margin: 15px 15px;
+        }
+        nav li{
+            text-align: center;
+            display: inline;
+            list-style: none;
+            margin: 5px 5px;
+            
+        }
+        nav li a{
+            text-decoration: none;
+            padding: 3px 3px;
+        }
+        a:hover{
+            background-color: red;
+            border-radius: 5px;
+        }
+        
+        nav div input{
+            float: right;
+            margin-bottom: 5px;            
+            border-color: rgb(45, 45, 133);
+            border-radius: 15px;
+            box-sizing: border-box;
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navi">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Servies</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Contact Us</a></li>
+                <div><input type="text" placeholder="enter"></div>                
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "..\\c++"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\prob"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"cstring": "cpp"
+		}
+	}
+}

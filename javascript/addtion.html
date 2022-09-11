@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div{
+            display: inline-block;
+        }
+        .div input{
+            border-radius: 5px;
+            margin: 10px;
+            width: 150px;
+            height: 20px;
+        }
+        .SUM input{
+            border-radius: 5px;
+            margin: 10px 200px;
+            padding: 5px;
+           
+        }
+
+        div#total{
+            border: 2px solid black;
+            border-radius: 5px;
+            width: 150px;
+            height: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="div" >
+        NUM1=<input type="number" name="num" id="num1">
+        <a >+</a>
+        NUM2=<input type="number" name="num" id="num2">
+        <a>=</a>
+      <div id="total">  SUM=</div>
+    </div>
+    <div class="SUM">
+        <input type="submit" value="SUM" id="sum">
+    </div>
+    <script src="add.js"></script>
+</body>
+</html>
